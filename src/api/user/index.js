@@ -14,7 +14,7 @@ validate.options({
 router
   .route("/users")
   .get(catchErrors(User.readAll))
-  .post(validate(userValidator.create), catchErrors(User.create))
+  .post(validate(userValidator.findOrCreate), catchErrors(User.findOrCreate))
 
 router
   .route("/users/:id/win")

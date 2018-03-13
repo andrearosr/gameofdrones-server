@@ -45,10 +45,10 @@ const UserSchema = new Schema(
 
 UserSchema.index({ name: "text" });
 UserSchema.plugin(uniqueValidator);
-UserSchema.statics.findOneOrCreate = function findOneOrCreate(condition, callback) {
+UserSchema.statics.findOrCreate = function findOneOrCreate(condition) {
     const self = this
-    self.findOne(condition, (err, result) => {
-        return result ? callback(err, result) : self.create(condition, (err, result) => { return callback(err, result) })
+    return self.findOne(condition, (err, result) => {
+        return result ? result : self.create(condition)
     })
 }
 

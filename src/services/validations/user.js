@@ -4,13 +4,13 @@ import Joi from "joi";
 Joi.objectId = objectId(Joi);
 
 export default {
-  create: {
+  findOrCreate: {
     body: {
       name: Joi.string().required(),
       score: Joi.number()
     }
   },
-  
+
   addWin: {
     path: {
       id: Joi.objectId().required(),

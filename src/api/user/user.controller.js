@@ -33,7 +33,7 @@ const UserController = {
    *   post:
    *     tags:
    *      - User
-   *     description: Create user
+   *     description: Find or create user
    *     produces:
    *       - application/json
    *     parameters:
@@ -57,9 +57,10 @@ const UserController = {
    *                  score:
    *                    type: integer
    */
-  async create(req, res) {
-    const newUser = await User.create(req.body);
-    res.json({ user: newUser });
+  async findOrCreate(req, res) {
+    const { name } = req.body
+    const user = await User.findOrCreate({ name });
+    res.status(status.OK).json(user);
   },
 
   /**
