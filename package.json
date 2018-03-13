@@ -10,7 +10,7 @@
     "start": "NODE_ENV=staging node dist/index.js",
     "test": "mocha src/**/*.test.js  --timeout 10000 -c --compilers js:babel-core/register || true",
     "watch": "gulp watch",
-    "load-hotels": "mongoimport --drop -d hotelr -c hotels --file dump/hotels.json"
+    "load-weapons": "mongoimport --drop -d ar_gameofdrones -c weapons --file dump/weapons.json"
   },
   "engines": {
     "node": "8.9.4",

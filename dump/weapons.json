@@ -1,0 +1,33 @@
+{
+  "id": "5aa755eb6ae32621dfb2205d",
+  "name": "rock",
+  "image": "images.rockIcon",
+  "kills": [
+    {
+      "weapon": "scissors",
+      "label": "smashes"
+    }
+  ]
+}
+{
+  "id": "5aa755eb6ae32621dfb2205e",
+  "name": "scissors",
+  "image": "images.scissorsIcon",
+  "kills": [
+    {
+      "weapon": "paper",
+      "label": "cuts"
+    }
+  ]
+}
+{
+  "id": "5aa755eb6ae32621dfb2205f",
+  "name": "paper",
+  "image": "images.paperIcon",
+  "kills": [
+    {
+      "weapon": "rock",
+      "label": "covers"
+    }
+  ]
+}
