@@ -13,7 +13,7 @@
     "load-weapons": "mongoimport --drop -d ar_gameofdrones -c weapons --file dump/weapons.json",
     "load-users": "mongoimport --drop -d ar_gameofdrones -c users --file dump/user.json",
     "load-weapons-remote": "mongoimport --drop -h ds263948.mlab.com:63948 -d heroku_4zrrkz53 -c weapons -u god -p god --file dump/weapons.json",
-    "load-users-remote": "mongoimport --drop -h ds263948.mlab.com:63948 -d heroku_4zrrkz53 -c users -u god -p god --file dump/users.json"
+    "load-users-remote": "mongoimport --drop -h ds263948.mlab.com:63948 -d heroku_4zrrkz53 -c users -u god -p god --file dump/user.json"
   },
   "engines": {
     "node": "8.9.4",
