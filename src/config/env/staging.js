@@ -1,12 +1,12 @@
 import path from "path";
 
 export const dbConfig = {
-  db: "mongodb://hotelr:hotelr@ds263948.mlab.com:63948/heroku_3rbqp1qn"
+  db: "mongodb://god:god@ds263948.mlab.com:63948/heroku_4zrrkz53"
 };
 
 export const appConfig = {
   env: "staging",
-  host: "https://hotelrapi.herokuapp.com/",
+  host: "https://gofdrones.herokuapp.com/",
   path: "/v1",
   basePath: "/api",
   port: process.env.PORT,

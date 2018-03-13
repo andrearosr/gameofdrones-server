@@ -1,7 +1,7 @@
 import path from "path";
 
 export const dbConfig = {
-  db: "mongodb://localhost/hotelr"
+  db: "mongodb://localhost/ar_gameofdrones"
 };
 
 export const appConfig = {
