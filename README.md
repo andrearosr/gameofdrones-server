@@ -49,7 +49,7 @@ If using a local server, you can browse it [here](http://127.0.0.1:5000/api/v1/d
 **Path Params:** none\
 **Body:** none
 
-***3. Create user:***
+***3. Find or create user:***
 
 **Endpoint:** `POST /users`\
 **Headers:** none\
