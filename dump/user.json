@@ -1,0 +1,32 @@
+{
+  "_id": {
+    "$oid": "5aa7d6646ae32621dfb23ad2"
+  },
+  "id": "5aa7d6646ae32621dfb23ad2",
+  "name": "Gregor",
+  "score": 18
+}
+{
+  "_id": {
+    "$oid": "5aa7d6646ae32621dfb23ad3"
+  },
+  "id": "5aa7d6646ae32621dfb23ad3",
+  "name": "Sandor",
+  "score": 7
+}
+{
+  "_id": {
+    "$oid": "5aa7d6646ae32621dfb23ad4"
+  },
+  "id": "5aa7d6646ae32621dfb23ad4",
+  "name": "Bronn",
+  "score": 3
+}
+{
+  "_id": {
+    "$oid": "5aa7d6646ae32621dfb23ad5"
+  },
+  "id": "5aa7d6646ae32621dfb23ad5",
+  "name": "Oberyn",
+  "score": 0
+}
