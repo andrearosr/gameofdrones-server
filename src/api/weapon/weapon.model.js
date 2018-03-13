@@ -48,7 +48,6 @@ const WeaponSchema = new Schema(
     }]
   },
   {
-    timestamps: true,
     toObject: { virtuals: true },
     toJSON: { virtuals: true }
   }
