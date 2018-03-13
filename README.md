@@ -41,5 +41,28 @@ If using a local server, you can browse it [here](http://127.0.0.1:5000/api/v1/d
 **Path Params:** none\
 **Body:** none
 
+***2. Get users:***
+
+**Endpoint:** `GET /users`\
+**Headers:** none\
+**Query Params:** none\
+**Path Params:** none\
+**Body:** none
+
+***3. Create user:***
+
+**Endpoint:** `POST /users`\
+**Headers:** none\
+**Query Params:** none\
+**Path Params:** none\
+**Body:** Object: `{ name: String, score: Integer }` Required: name
+
+***4. Add win:***
+
+**Endpoint:** `PATCH /users/:id/win`\
+**Headers:** none\
+**Query Params:** `:id` -> id property of the selected user\
+**Path Params:** none\
+**Body:** none
 
 **Note:** The `master` branch on the Client uses the Heroku server (a). If you want to easily switch to a local server (b), use the `local-server` branch on the client.
