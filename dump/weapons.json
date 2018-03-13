@@ -1,7 +1,7 @@
 {
   "id": "5aa755eb6ae32621dfb2205d",
   "name": "rock",
-  "image": "images.rockIcon",
+  "image": "https://www.dropbox.com/s/xcvo2ick9lrz8x4/rock.png?raw=1",
   "kills": [
     {
       "weapon": "scissors",
@@ -12,7 +12,7 @@
 {
   "id": "5aa755eb6ae32621dfb2205e",
   "name": "scissors",
-  "image": "images.scissorsIcon",
+  "image": "https://www.dropbox.com/s/4bzgqu365rbsktf/scissors.png?raw=1",
   "kills": [
     {
       "weapon": "paper",
@@ -23,7 +23,7 @@
 {
   "id": "5aa755eb6ae32621dfb2205f",
   "name": "paper",
-  "image": "images.paperIcon",
+  "image": "https://www.dropbox.com/s/g3eft6wj9kabd8c/paper.png?raw=1",
   "kills": [
     {
       "weapon": "rock",
